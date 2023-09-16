@@ -5,3 +5,6 @@ Fitur :
 2. Menampilkan detail surah
 3. Suara MP3
 4. Suara by imam makkah
+
+
+https://web-al-quran.vercel.app/
