@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas Akhir js</title>
+        <!-- Bootstrap 5 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous"
+        >
+        <!-- js swal -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Script untuk icon bootstrap 5 -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <!-- script jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body class="bg-success-subtle">
+        <div class="container">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary rounded-bottom sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img
+                            src="https://www.freepnglogos.com/uploads/al-quran-png/al-quran-quran-clipart-collection-27.png"
+                            alt="Logo"
+                            width="50"
+                            height="40"
+                            class="d-inline-block align-text-top"
+                        >
+                        Alquran Digital
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item fw-bold">
+                                <a class="nav-link active align-text-top" href="#" id="surah">SURAH</a>
+                            </li>
+                            <li class="nav-item font-family-sans-serif fw-bold">
+                                <a class="nav-link align-text-top" href="#" id="imam">IMAM</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Content -->
+            <br>
+            <div class="content" id="isiSurah">
+                <!-- content isi surah -->
+                <ol class="list-group  sticky-top bg-body-secondary">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <a href="" class="ms-2 me-auto nav-link" id="detailSurah">
+                            <div>
+                                <div class="fw-bold">Surah,,,,</div>
+                                Makkiyah | 8 Ayat
+                            </div>
+                        </a>
+                        <div class="fw-bold ms-2 me-auto top-0 text-center">
+                            <div>Al Fatihah</div>
+                            <!-- <button
+                                type="button"
+                                class="btn-close bg-danger align-items-center"
+                                id="btn-close"
+                                aria-label="Close"
+                            ></button> -->
+                        </div>
+                        <audio controls>
+                            <source src="" type="audio/mpeg">
+                        </audio>
+                    </ol>
+                    <!-- <div id="cardSurah">
+                        <div class="card d-flex align-items-start">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit harum eum unde at officiis, fuga quo neque? Nihil accusamus, a tenetur minus reprehenderit laboriosam numquam veritatis ut commodi pariatur quod.</li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- <button id="swe">swit</button> -->
+            <br>
+            <br>
+            <!-- Script bootstrap 5 -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+            <!-- Script js sendiri -->
+            <script src="script.js"></script>
+        </body>
+    </html>
